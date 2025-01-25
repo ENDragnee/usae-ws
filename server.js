@@ -9,7 +9,7 @@ const app = express();
 const PORT = 3000;
 
 // MongoDB Connection URI
-const uri = process.env.MONGODB_URI || "mongodb://localhost:27017";
+const uri = "mongodb+srv://mesfinmastwal:YHujuacgO6NCOhvc@cluster0.imcf4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 const client = new MongoClient(uri);
 const dbName = "usae-sport";
 let db;
